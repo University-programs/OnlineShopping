@@ -1,0 +1,28 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Backstage.Master" AutoEventWireup="true" CodeBehind="UserEdit.aspx.cs" Inherits="OnlineShopping.UserEdit" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <form runat="server">
+		<div class="form-group">
+			<label>用户名</label>
+            <asp:TextBox ID="txtUserName" runat="server" class="form-control" placeholder="用户名" ReadOnly="True"></asp:TextBox>
+		</div>
+        <div class="form-group">
+			<label>昵称</label>
+			<asp:TextBox ID="txtNickName" runat="server" class="form-control" placeholder="昵称"></asp:TextBox>
+		</div>
+		<div class="form-group">
+			<label>原密码</label>
+			<asp:TextBox ID="txtOldUserPassword" runat="server" class="form-control" placeholder="该项为空不修改密码" TextMode="Password"></asp:TextBox>
+		</div>
+        <div class="form-group">
+			<label>新密码</label>
+			<asp:TextBox ID="txtNewUserPassword" runat="server" class="form-control" placeholder="该项为空不修改密码" TextMode="Password"></asp:TextBox>
+		</div>
+        <div class="form-group">
+			<label>确认新密码</label>
+			<asp:TextBox ID="txtEnterUserPassword" runat="server" class="form-control" placeholder="该项为空不修改密码" TextMode="Password"></asp:TextBox>
+		</div>
+        <asp:Button ID="btnSubmit" runat="server" Text="确认提交" class="btn btn-primary btn-flat m-b-30 m-t-30" />
+	</form>
+</asp:Content>
