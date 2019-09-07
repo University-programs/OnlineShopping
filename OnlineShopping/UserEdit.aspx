@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <form runat="server">
+    <form method="post" runat="server" style="width:70%;margin:0 auto">
 		<div class="form-group">
 			<label>用户名</label>
             <asp:TextBox ID="txtUserName" runat="server" class="form-control" ReadOnly="True"></asp:TextBox>

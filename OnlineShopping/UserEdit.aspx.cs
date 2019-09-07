@@ -10,25 +10,65 @@ namespace OnlineShopping
 {
     public partial class UserEdit : System.Web.UI.Page
     {
-        DataSet ds = new DataSet();
+        static DataSet ds = new DataSet();
+        static string uid;
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!Page.IsPostBack)
+            if(!IsPostBack)
             {
-                string uid = Request["uid"] as string;
-                ds = DBHelper.Select("select * from Users");
+                uid = Request["uid"] as string;
+                ds = DBHelper.Select("select * from Users where uid=" + uid);
                 txtUserName.Text = ds.Tables[0].Rows[0][1].ToString();
                 txtNickName.Text = ds.Tables[0].Rows[0][2].ToString();
-            }
-            
+            }  
         }
 
         protected void btnSubmit_Click(object sender, EventArgs e)
         {
-            if(txtNickName.Text=="")
+            if(txtNickName.Text == "")
             {
                 Response.Write("<script>alert('请输入昵称')</script>");
                 return;
+            }
+            if(txtOldUserPassword.Text==""&&txtNewUserPassword.Text==""&&txtEnterUserPassword.Text=="")
+            {//没有输入密码
+                if(DBHelper.Update("update Users set NickName='" + txtNickName.Text + "' where uid=" + uid))
+                {
+                    Response.Write("<script>alert('提交成功');window.location.href='UserManager.aspx'</script>");
+                }
+            }
+            else//输入密码
+            {
+                if(txtOldUserPassword.Text=="")
+                {
+                    Response.Write("<script>alert('请输入原密码')</script>");
+                    return;
+                }
+                if (txtNewUserPassword.Text == "")
+                {
+                    Response.Write("<script>alert('请输入新密码')</script>");
+                    return;
+                }
+                if (txtEnterUserPassword.Text == "")
+                {
+                    Response.Write("<script>alert('请确认新密码')</script>");
+                    return;
+                }
+                if(txtOldUserPassword.Text!=ds.Tables[0].Rows[0][3].ToString())
+                {
+                    Response.Write("<script>alert('原密码不正确')</script>");
+                    return;
+                }
+                if(txtNewUserPassword.Text!=txtEnterUserPassword.Text)
+                {
+                    Response.Write("<script>alert('两次密码不一致')</script>");
+                    return;
+                }
+                if (DBHelper.Update("update Users set NickName='" + txtNickName.Text + "',UserPassword='"+txtNewUserPassword.Text+"' where uid=" + uid))
+                {
+                    Response.Write("<script>alert('提交成功');window.location.href='UserManager.aspx'</script>");
+                }
+
             }
         }
     }
