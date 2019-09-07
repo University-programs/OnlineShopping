@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Backstage.Master" AutoEventWireup="true" CodeBehind="GoodManager.aspx.cs" Inherits="OnlineShopping.GoodsManager" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Backstage.Master" AutoEventWireup="true" CodeBehind="GoodManager.aspx.cs" Inherits="OnlineShopping.GoodManager" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <title>商品管理</title>
     <style>
@@ -26,7 +26,7 @@
                 <asp:BoundField DataField="GoodPrice" DataFormatString="{0:c}" HeaderText="商品价格" SortExpression="GoodPrice" />
                 <asp:BoundField DataField="Category" HeaderText="商品类别" SortExpression="Category" />
                 <asp:BoundField DataField="GoodNum" HeaderText="商品数量" SortExpression="GoodNum" />
-                <asp:HyperLinkField HeaderText="商品图片" DataNavigateUrlFields="GoodPic" DataNavigateUrlFormatString="./Images/{0}" Text="点击查看图片" />
+                <asp:HyperLinkField HeaderText="商品图片" DataNavigateUrlFields="GoodPic" DataNavigateUrlFormatString="SeeImg.aspx?url={0}" Text="点击查看图片" />
                 <asp:BoundField DataField="GoodShow" HeaderText="商品简介" SortExpression="GoodShow" />
                 <asp:BoundField DataField="GoodTime" HeaderText="上架时间" SortExpression="GoodTime" />
                 <asp:HyperLinkField DataNavigateUrlFields="gid"  DataNavigateUrlFormatString="GoodEdit.aspx?gid={0}" Text="编辑"/>

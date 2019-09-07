@@ -307,6 +307,7 @@
     <Content Include="assets\fonts\weathericons-regular-webfont.woff2" />
     <Content Include="GoodAdd.aspx" />
     <Content Include="GoodDelete.aspx" />
+    <Content Include="GoodEdit.aspx" />
     <Content Include="GoodsInfo.aspx" />
     <Content Include="GoodManager.aspx" />
     <Content Include="Images\1001.jpg" />
@@ -330,6 +331,7 @@
     <Content Include="logo\nixon-logo.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="SeeImg.aspx" />
     <Content Include="Shared\bootstrap-responsive.css" />
     <Content Include="Shared\bootstrap-responsive.min.css" />
     <Content Include="Shared\bootstrap.css" />
@@ -362,6 +364,13 @@
     <Compile Include="GoodDelete.aspx.designer.cs">
       <DependentUpon>GoodDelete.aspx</DependentUpon>
     </Compile>
+    <Compile Include="GoodEdit.aspx.cs">
+      <DependentUpon>GoodEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GoodEdit.aspx.designer.cs">
+      <DependentUpon>GoodEdit.aspx</DependentUpon>
+    </Compile>
     <Compile Include="GoodsInfo.aspx.cs">
       <DependentUpon>GoodsInfo.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -384,6 +393,13 @@
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SeeImg.aspx.cs">
+      <DependentUpon>SeeImg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SeeImg.aspx.designer.cs">
+      <DependentUpon>SeeImg.aspx</DependentUpon>
+    </Compile>
     <Compile Include="UserDelete.aspx.cs">
       <DependentUpon>UserDelete.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
