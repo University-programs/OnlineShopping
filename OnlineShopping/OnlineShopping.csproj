@@ -305,6 +305,7 @@
     <Content Include="assets\fonts\weathericons-regular-webfont.ttf" />
     <Content Include="assets\fonts\weathericons-regular-webfont.woff" />
     <Content Include="assets\fonts\weathericons-regular-webfont.woff2" />
+    <Content Include="GoodCar.aspx" />
     <Content Include="GoodsInfo.aspx" />
     <Content Include="Images\1001.jpg" />
     <Content Include="Images\1002.jpg" />
@@ -333,6 +334,7 @@
     <Content Include="Shared\bootstrap.min.css" />
     <Content Include="UserDelete.aspx" />
     <Content Include="UserEdit.aspx" />
+    <Content Include="UserLogin.aspx" />
     <Content Include="UserManager.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -345,6 +347,13 @@
       <DependentUpon>Backstage.Master</DependentUpon>
     </Compile>
     <Compile Include="DBHelper.cs" />
+    <Compile Include="GoodCar.aspx.cs">
+      <DependentUpon>GoodCar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GoodCar.aspx.designer.cs">
+      <DependentUpon>GoodCar.aspx</DependentUpon>
+    </Compile>
     <Compile Include="GoodsInfo.aspx.cs">
       <DependentUpon>GoodsInfo.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -373,6 +382,13 @@
     </Compile>
     <Compile Include="UserEdit.aspx.designer.cs">
       <DependentUpon>UserEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserLogin.aspx.cs">
+      <DependentUpon>UserLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserLogin.aspx.designer.cs">
+      <DependentUpon>UserLogin.aspx</DependentUpon>
     </Compile>
     <Compile Include="UserManager.aspx.cs">
       <DependentUpon>UserManager.aspx</DependentUpon>
