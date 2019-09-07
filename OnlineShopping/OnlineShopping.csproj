@@ -305,7 +305,10 @@
     <Content Include="assets\fonts\weathericons-regular-webfont.ttf" />
     <Content Include="assets\fonts\weathericons-regular-webfont.woff" />
     <Content Include="assets\fonts\weathericons-regular-webfont.woff2" />
+    <Content Include="GoodAdd.aspx" />
+    <Content Include="GoodDelete.aspx" />
     <Content Include="GoodsInfo.aspx" />
+    <Content Include="GoodManager.aspx" />
     <Content Include="Images\1001.jpg" />
     <Content Include="Images\1002.jpg" />
     <Content Include="Images\1003.jpg" />
@@ -345,12 +348,33 @@
       <DependentUpon>Backstage.Master</DependentUpon>
     </Compile>
     <Compile Include="DBHelper.cs" />
+    <Compile Include="GoodAdd.aspx.cs">
+      <DependentUpon>GoodAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GoodAdd.aspx.designer.cs">
+      <DependentUpon>GoodAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GoodDelete.aspx.cs">
+      <DependentUpon>GoodDelete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GoodDelete.aspx.designer.cs">
+      <DependentUpon>GoodDelete.aspx</DependentUpon>
+    </Compile>
     <Compile Include="GoodsInfo.aspx.cs">
       <DependentUpon>GoodsInfo.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="GoodsInfo.aspx.designer.cs">
       <DependentUpon>GoodsInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GoodManager.aspx.cs">
+      <DependentUpon>GoodManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GoodManager.aspx.designer.cs">
+      <DependentUpon>GoodManager.aspx</DependentUpon>
     </Compile>
     <Compile Include="Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>

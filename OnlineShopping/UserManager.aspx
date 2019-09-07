@@ -1,5 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Backstage.Master" AutoEventWireup="true" CodeBehind="UserManager.aspx.cs" Inherits="OnlineShopping.UserManager" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <title>用户管理</title>
     <style>
         th{
             text-align:center;
@@ -12,10 +13,13 @@
         }
     </style>
 </asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
+    <h1>用户管理</h1>
+</asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <form runat="server">
+    <form method="post" runat="server">
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:OnlineShopping %>" SelectCommand="SELECT * FROM [Users]"></asp:SqlDataSource>
-        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" AllowPaging="True" Width="70%" Font-Size="Large" HorizontalAlign="Center" PageSize="15" >
+        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" AllowPaging="True" Width="70%" Font-Size="Large" HorizontalAlign="Center" PageSize="15" EmptyDataText="数据库中无任何信息" >
             <Columns>
                 <asp:BoundField DataField="UserName" HeaderText="用户名" SortExpression="UserName" />
                 <asp:BoundField DataField="NickName" HeaderText="用户昵称" SortExpression="NickName" />

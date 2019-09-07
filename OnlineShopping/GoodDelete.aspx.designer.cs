@@ -10,6 +10,6 @@
 namespace OnlineShopping {
     
     
-    public partial class UserDelete {
+    public partial class GoodDelete {
     }
 }

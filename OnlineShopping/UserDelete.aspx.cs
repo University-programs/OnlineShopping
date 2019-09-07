@@ -11,7 +11,15 @@ namespace OnlineShopping
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            string uid = Request["uid"] as string;
+            if(DBHelper.Update("delete from Users where uid="+uid))
+            {
+                Response.Write("<script>alert('删除成功');window.location.href='UserManager.aspx'</script>");
+            }
+            else
+            {
+                Response.Write("<script>alert('删除失败');window.location.href='UserManager.aspx'</script>");
+            }
         }
     }
 }

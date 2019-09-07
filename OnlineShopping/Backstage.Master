@@ -40,18 +40,13 @@
         <div class="nano">
             <div class="nano-content">
                 <ul>
-                      
-                    
-					
 					<li><a class="sidebar-sub-toggle"><i class="ti-layout"></i> 商品管理 <span class="sidebar-collapse-icon ti-angle-down"></span></a>
                         <ul>
-                            <li><a href="ui-accordion.html"> 管理商品</a></li>
-                            <li><a href="ui-alerts.html"> 添加商品</a></li>
-                             
+                            <li><a href="GoodManager.aspx"> 管理商品</a></li>
+                            <li><a href="GoodAdd.aspx"> 添加商品</a></li>
                         </ul>
                     </li>
 					<li><a href="UserManager.aspx"><i class="ti-user"></i> 用户管理</a></li>				
-					
                     <li><a><i class="ti-close"></i> 退出系统</a></li>
 
                 </ul>
@@ -214,6 +209,17 @@
     <div class="content-wrap">
         <div class="main">
             <div class="container-fluid">
+                <div class="row">
+                    <div class="p-0">
+                        <div class="page-header">
+                            <div class="page-title">
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /# column -->
+                </div>
                 <div class="main-content">
                     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                     </asp:ContentPlaceHolder>

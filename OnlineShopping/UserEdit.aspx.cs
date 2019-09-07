@@ -71,5 +71,10 @@ namespace OnlineShopping
 
             }
         }
+
+        protected void btnCancel_Click(object sender, EventArgs e)
+        {
+            Response.Write("<script>window.location.href='UserManager.aspx'</script>");
+        }
     }
 }
