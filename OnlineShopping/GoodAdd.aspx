@@ -6,6 +6,9 @@
             width:100%;
             font-size:1.5em;
         }
+        .GoodPic{
+            height:150px;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
