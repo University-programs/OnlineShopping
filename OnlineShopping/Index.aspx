@@ -25,9 +25,6 @@
 								<li>
 									<a href="#">链接</a>
 								</li>
-								<li>
-									<a href="#">链接</a>
-								</li>
 								<li class="dropdown">
 									 <a class="dropdown-toggle" href="#" data-toggle="dropdown">下拉菜单<strong class="caret"></strong></a>
 									<ul class="dropdown-menu">
