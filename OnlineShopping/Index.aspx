@@ -20,35 +20,7 @@
 						<div class="nav-collapse collapse navbar-responsive-collapse">
 							<ul class="nav">
 								<li class="active">
-									<a href="#">主页</a>
-								</li>
-								<li>
-									<a href="#">链接</a>
-								</li>
-								<li class="dropdown">
-									 <a class="dropdown-toggle" href="#" data-toggle="dropdown">下拉菜单<strong class="caret"></strong></a>
-									<ul class="dropdown-menu">
-										<li>
-											<a href="#">下拉导航1</a>
-										</li>
-										<li>
-											<a href="#">下拉导航2</a>
-										</li>
-										<li>
-											<a href="#">其他</a>
-										</li>
-										<li class="divider">
-										</li>
-										<li class="nav-header">
-											标签
-										</li>
-										<li>
-											<a href="#">链接1</a>
-										</li>
-										<li>
-											<a href="#">链接2</a>
-										</li>
-									</ul>
+									<a href="Index.aspx">主页</a>
 								</li>
 							</ul>
 							<ul class="nav pull-right">
@@ -58,23 +30,7 @@
 								<li class="divider-vertical">
 								</li>
 								<li class="dropdown">
-									 <a class="dropdown-toggle" href="#" data-toggle="dropdown">下拉菜单<strong class="caret"></strong></a>
-									<ul class="dropdown-menu">
-										<li>
-											<a href="#">下拉导航1</a>
-										</li>
-										<li>
-											<a href="#">下拉导航2</a>
-										</li>
-										<li>
-											<a href="#">其他</a>
-										</li>
-										<li class="divider">
-										</li>
-										<li>
-											<a href="#">链接3</a>
-										</li>
-									</ul>
+									<a href="#">我的信息</a>
 								</li>
 							</ul>
 						</div>
@@ -103,7 +59,7 @@
                         }
                         Response.Write(@"<li class='span4'><div class='thumbnail'><img alt='300x200' src='Images/" + dt.Rows[goodid][6].ToString() + @"' />
 						<div class='caption'><h3>" + dt.Rows[goodid][2].ToString() + @"</h3><p>" + dt.Rows[goodid][7].ToString() + @"</p><p>
-								<a class='btn btn-primary' href='#'>浏览</a> <a class='btn' href='#'>加入购物车</a>
+								<a class='btn btn-primary' href='GoodsInfo.aspx?gid="+dt.Rows[goodid][1].ToString()+@"'>浏览</a> <a class='btn' href='GoodsInfo.aspx?gid="+dt.Rows[goodid][1].ToString()+@"'>加入购物车</a>
                                 <asp:Label CssClass='pull-right'>价格：" + dt.Rows[goodid][3].ToString() + @"￥</asp:Label>
 							</p>
 						</div>
@@ -125,6 +81,7 @@
 						<a href='Index.aspx?page=<% Response.Write(nowPage-1);%>'>上一页</a>
 					</li>
                     <%
+                        
                         for (int i = 0; i < totalPage; i++)
                         {
                             Response.Write(@"<li><a href='Index.aspx?page=" + (i + 1) + "'>" + (i + 1) + "</a></li>");

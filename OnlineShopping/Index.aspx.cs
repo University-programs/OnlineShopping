@@ -51,11 +51,29 @@ namespace OnlineShopping
             }
             if (!string.IsNullOrEmpty(txtSerch.Text.Trim()))
             {
-                appendSql += " and GoodName like %" + txtSerch.Text.Trim() + "%";
+                appendSql += " and GoodName like '%" + txtSerch.Text.Trim() + "%' ";
             }
 
             #endregion
 
+            int count = Convert.ToInt32(DBHelper.Select("select count(*) from Goods where 1=1 " + appendSql).Tables[0].Rows[0][0].ToString());
+            if (count%6==0)
+            {
+                count = count / 6;
+            }
+            else
+            {
+                count = count / 6;
+                count++;
+            }
+            if (count != totalPage)
+            {
+                totalPage = count;
+            }
+            if (totalPage == 0)
+            {
+                totalPage++;
+            }
             if (Request["page"]!=null)
             {               //不是首次访问
                 nowPage = Convert.ToInt32(Request["page"].ToString());
@@ -73,11 +91,11 @@ namespace OnlineShopping
                     goodid = 0;
                     return;
                 }
-                dt = DBHelper.Select("select top 6 * from Goods where gid not in(select top " + 6 * (nowPage - 1) + " gid from Goods) "+appendSql+";").Tables[0];
+                dt = DBHelper.Select("select top 6 * from Goods where gid not  in(select top " + 6 * (nowPage - 1) + " gid from Goods) "+appendSql+";").Tables[0];
             }
             else
             {               //首次访问
-                dt = DBHelper.Select("select top 6 * from Goods;").Tables[0];
+                dt = DBHelper.Select("select top 6 * from Goods where 1=1 "+appendSql+";").Tables[0];
             }
             goodid = 0;
         }

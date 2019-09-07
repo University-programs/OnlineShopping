@@ -305,6 +305,7 @@
     <Content Include="assets\fonts\weathericons-regular-webfont.ttf" />
     <Content Include="assets\fonts\weathericons-regular-webfont.woff" />
     <Content Include="assets\fonts\weathericons-regular-webfont.woff2" />
+    <Content Include="GoodsInfo.aspx" />
     <Content Include="Images\1001.jpg" />
     <Content Include="Images\1002.jpg" />
     <Content Include="Images\1003.jpg" />
@@ -343,6 +344,13 @@
       <DependentUpon>Backstage.Master</DependentUpon>
     </Compile>
     <Compile Include="DBHelper.cs" />
+    <Compile Include="GoodsInfo.aspx.cs">
+      <DependentUpon>GoodsInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GoodsInfo.aspx.designer.cs">
+      <DependentUpon>GoodsInfo.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
