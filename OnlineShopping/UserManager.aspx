@@ -20,8 +20,8 @@
                 <asp:BoundField DataField="UserName" HeaderText="用户名" SortExpression="UserName" />
                 <asp:BoundField DataField="NickName" HeaderText="用户昵称" SortExpression="NickName" />
                 <asp:CheckBoxField DataField="IsAdmin" HeaderText="是否管理员" SortExpression="IsAdmin" />
-                <asp:HyperLinkField DataNavigateUrlFields="uid"  DataNavigateUrlFormatString="UserEdit.aspx?id={0}" Text="编辑"/>
-                <asp:HyperLinkField DataNavigateUrlFields="uid"  DataNavigateUrlFormatString="UserDelete.aspx?id={0}" Text="删除"/>
+                <asp:HyperLinkField DataNavigateUrlFields="uid"  DataNavigateUrlFormatString="UserEdit.aspx?uid={0}" Text="编辑"/>
+                <asp:HyperLinkField DataNavigateUrlFields="uid"  DataNavigateUrlFormatString="UserDelete.aspx?uid={0}" Text="删除"/>
             </Columns>
             <PagerSettings FirstPageText="首页" LastPageText="末页" NextPageText="下一页" PreviousPageText="上一页" Mode="NextPreviousFirstLast" />
             <RowStyle HorizontalAlign="Center" />

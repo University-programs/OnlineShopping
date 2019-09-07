@@ -26,3 +26,10 @@ D:\github_code\OnlineShopping\OnlineShopping\OnlineShopping\obj\Debug\OnlineShop
 D:\github_code\OnlineShopping\OnlineShopping\OnlineShopping\obj\Debug\OnlineShopping.csproj.CoreCompileInputs.cache
 D:\github_code\OnlineShopping\OnlineShopping\OnlineShopping\obj\Debug\OnlineShopping.dll
 D:\github_code\OnlineShopping\OnlineShopping\OnlineShopping\obj\Debug\OnlineShopping.pdb
+E:\Project\ASP.NET\新建文件夹\OnlineShopping\OnlineShopping\bin\OnlineShopping.dll.config
+E:\Project\ASP.NET\新建文件夹\OnlineShopping\OnlineShopping\bin\OnlineShopping.dll
+E:\Project\ASP.NET\新建文件夹\OnlineShopping\OnlineShopping\bin\OnlineShopping.pdb
+E:\Project\ASP.NET\新建文件夹\OnlineShopping\OnlineShopping\obj\Debug\OnlineShopping.csprojAssemblyReference.cache
+E:\Project\ASP.NET\新建文件夹\OnlineShopping\OnlineShopping\obj\Debug\OnlineShopping.csproj.CoreCompileInputs.cache
+E:\Project\ASP.NET\新建文件夹\OnlineShopping\OnlineShopping\obj\Debug\OnlineShopping.dll
+E:\Project\ASP.NET\新建文件夹\OnlineShopping\OnlineShopping\obj\Debug\OnlineShopping.pdb
