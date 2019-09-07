@@ -16,7 +16,7 @@
 			<div class="navbar navbar-inverse">
 				<div class="navbar-inner">
 					<div class="container-fluid">
-						 <a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-responsive-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a> <a class="brand" href="#">网上商城</a>
+						 <a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-responsive-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a> <a class="brand" href="Index.aspx">网上商城</a>
 						<div class="nav-collapse collapse navbar-responsive-collapse">
 							<ul class="nav">
 								<li class="active">
@@ -25,12 +25,12 @@
 							</ul>
 							<ul class="nav pull-right">
 								<li>
-									<a href="#">购物车</a>
+									<a href="GoodCar.aspx">购物车</a>
 								</li>
 								<li class="divider-vertical">
 								</li>
 								<li class="dropdown">
-									<a href="#">我的信息</a>
+									<a href="UserEdit.aspx">我的信息</a>
 								</li>
 							</ul>
 						</div>
