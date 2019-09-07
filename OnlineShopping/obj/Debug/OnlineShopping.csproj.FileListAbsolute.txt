@@ -19,3 +19,10 @@ C:\Users\封帅虎\Downloads\OnlineShopping-master\OnlineShopping-master\OnlineS
 C:\Users\封帅虎\Downloads\OnlineShopping-master\OnlineShopping-master\OnlineShopping\obj\Debug\OnlineShopping.csproj.CoreCompileInputs.cache
 C:\Users\封帅虎\Downloads\OnlineShopping-master\OnlineShopping-master\OnlineShopping\obj\Debug\OnlineShopping.dll
 C:\Users\封帅虎\Downloads\OnlineShopping-master\OnlineShopping-master\OnlineShopping\obj\Debug\OnlineShopping.pdb
+D:\github_code\OnlineShopping\OnlineShopping\OnlineShopping\bin\OnlineShopping.dll.config
+D:\github_code\OnlineShopping\OnlineShopping\OnlineShopping\bin\OnlineShopping.dll
+D:\github_code\OnlineShopping\OnlineShopping\OnlineShopping\bin\OnlineShopping.pdb
+D:\github_code\OnlineShopping\OnlineShopping\OnlineShopping\obj\Debug\OnlineShopping.csprojAssemblyReference.cache
+D:\github_code\OnlineShopping\OnlineShopping\OnlineShopping\obj\Debug\OnlineShopping.csproj.CoreCompileInputs.cache
+D:\github_code\OnlineShopping\OnlineShopping\OnlineShopping\obj\Debug\OnlineShopping.dll
+D:\github_code\OnlineShopping\OnlineShopping\OnlineShopping\obj\Debug\OnlineShopping.pdb
