@@ -120,62 +120,7 @@
                     }
                 %>
 			
-            <%--<ul class="thumbnails">
-				<li class="span4">
-					<div class="thumbnail">
-						<img alt="300x200" src='Images/<% Response.Write(dt.Rows[goodid][6].ToString()); %>' />
-						<div class="caption">
-							<h3>
-								<% Response.Write(dt.Rows[goodid][2].ToString()); %>
-							</h3>
-							<p>
-								<% Response.Write(dt.Rows[goodid][7].ToString()); %>
-							</p>
-							<p>
-								<a class="btn btn-primary" href="#">浏览</a> <a class="btn" href="#">加入购物车</a>
-                                <asp:Label ID="Label4" CssClass="pull-right" runat="server" Text=''>价格：<% Response.Write(dt.Rows[goodid][3].ToString()); %>￥</asp:Label>
-							</p>
-						</div>
-					</div>
-                    <% goodid++; %>
-				</li>
-				<li class="span4">
-					<div class="thumbnail">
-						<img alt="300x200" src='Images/<% Response.Write(dt.Rows[goodid][6].ToString()); %>' />
-						<div class="caption">
-							<h3>
-								<% Response.Write(dt.Rows[goodid][2].ToString()); %>
-							</h3>
-							<p>
-								<% Response.Write(dt.Rows[goodid][7].ToString()); %>
-							</p>
-							<p>
-								<a class="btn btn-primary" href="#">浏览</a> <a class="btn" href="#">加入购物车</a>
-                                <asp:Label ID="Label5" CssClass="pull-right" runat="server" Text=''>价格：<% Response.Write(dt.Rows[goodid][3].ToString()); %>￥</asp:Label>
-							</p>
-						</div>
-					</div>
-                    <% goodid++; %>
-				</li>
-				<li class="span4">
-					<div class="thumbnail">
-						<img alt="300x200" src='Images/<% Response.Write(dt.Rows[goodid][6].ToString()); %>' />
-						<div class="caption">
-							<h3>
-								<% Response.Write(dt.Rows[goodid][2].ToString()); %>
-							</h3>
-							<p>
-								<% Response.Write(dt.Rows[goodid][7].ToString()); %>
-							</p>
-							<p>
-								<a class="btn btn-primary" href="#">浏览</a> <a class="btn" href="#">加入购物车</a>
-                                <asp:Label ID="Label6" CssClass="pull-right" runat="server" Text=''>价格：<% Response.Write(dt.Rows[goodid][3].ToString()); %>￥</asp:Label>
-							</p>
-						</div>
-					</div>
-                    <% goodid++; %>
-				</li>
-			</ul>--%>
+           
             <hr />
             <div class="pagination text-center">
 				<ul>
