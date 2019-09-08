@@ -22,6 +22,9 @@
 								<li class="active">
 									<a href="Index.aspx">主页</a>
 								</li>
+                                <li class="active">
+									<a href="Register.aspx">注册</a>
+								</li>
 							</ul>
 							<ul class="nav pull-right">
 								<li>

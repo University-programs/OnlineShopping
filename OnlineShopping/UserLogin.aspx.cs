@@ -24,6 +24,11 @@ namespace OnlineShopping
                 Response.Write("<script>alert('账号或密码错误！');</script>");
                 return;
             }
+            
+            if (Convert.ToBoolean(ds.Tables[0].Rows[0][4].ToString())==true)
+            {
+                Response.Redirect("GoodManager.aspx");
+            }
             Session["uid"] = ds.Tables[0].Rows[0][0].ToString();
             Response.Redirect("Index.aspx");
         }
