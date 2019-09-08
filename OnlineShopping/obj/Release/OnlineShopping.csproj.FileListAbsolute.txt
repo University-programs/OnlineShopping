@@ -1,0 +1,7 @@
+E:\Project\ASP.NET\新建文件夹\OnlineShopping\OnlineShopping\bin\OnlineShopping.dll.config
+E:\Project\ASP.NET\新建文件夹\OnlineShopping\OnlineShopping\bin\OnlineShopping.dll
+E:\Project\ASP.NET\新建文件夹\OnlineShopping\OnlineShopping\bin\OnlineShopping.pdb
+E:\Project\ASP.NET\新建文件夹\OnlineShopping\OnlineShopping\obj\Release\OnlineShopping.csproj.CoreCompileInputs.cache
+E:\Project\ASP.NET\新建文件夹\OnlineShopping\OnlineShopping\obj\Release\OnlineShopping.dll
+E:\Project\ASP.NET\新建文件夹\OnlineShopping\OnlineShopping\obj\Release\OnlineShopping.pdb
+E:\Project\ASP.NET\新建文件夹\OnlineShopping\OnlineShopping\obj\Release\OnlineShopping.csprojAssemblyReference.cache

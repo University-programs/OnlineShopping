@@ -15,7 +15,7 @@ namespace OnlineShopping
     public static class DBHelper
     {
         //
-        private static string conStr = @"Data Source=127.0.0.1;Initial Catalog=OnlineShopping;Integrated Security=True;";
+        private static string conStr = @"Data Source=iZ2op1nnd1x7lwZ\SQLEXPRESS;Initial Catalog=OnlineShopping;User ID=sa;Password=woaini17899589AI;Trusted_Connection = False;";
 
         //查询函数 第一个参数sql语句，
         public static DataSet Select(string sql)

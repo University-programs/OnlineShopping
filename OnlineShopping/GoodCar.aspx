@@ -60,7 +60,7 @@
                                 for (int i = 0; i < gdt.Rows.Count; i++)
                                 {
                                     Response.Write("<tr><td>" + gdt.Rows[i][2].ToString() + "</td>");
-                                    Response.Write("<td><img src='Images/" + gdt.Rows[i][6].ToString() + "' /></td>");
+                                    Response.Write("<td><img src='Images/" + gdt.Rows[i][6].ToString() + "' style='width:200px;height:200px'/></td>");
                                     totalpay += Convert.ToDouble(dt.Rows[i][3].ToString()) * Convert.ToDouble(gdt.Rows[i][3].ToString());
                                     Response.Write("<td>" + Convert.ToDouble(dt.Rows[i][3].ToString()) * Convert.ToDouble(gdt.Rows[i][3].ToString()) + "￥</td>");
                                     Response.Write("<td>" + dt.Rows[i][3].ToString() + "</td>");

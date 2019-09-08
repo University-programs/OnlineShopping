@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+此文件由 Web 项目的发布/打包过程使用。可以通过编辑此 MSBuild 文件
+自定义此过程的行为。为了解与此相关的更多内容，请访问 https://go.microsoft.com/fwlink/?LinkID=208121。 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\87351\Desktop\1</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="assets/css/lib/barRating/barRating.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/css/lib/bootstrap.min.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/css/lib/calendar/fullcalendar.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/css/lib/calendar2/pignose.calendar.min.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/css/lib/calendar2/semantic.ui.min.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/css/lib/data-table/buttons.bootstrap.min.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/css/lib/data-table/buttons.dataTables.min.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/css/lib/data-table/dataTables.bootstrap.min.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/css/lib/font-awesome.min.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/css/lib/jquery-ui.min.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/css/lib/jsgrid/jsgrid-theme.min.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/css/lib/jsgrid/jsgrid.min.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/css/lib/lobi-panel/lobipanel.min.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/css/lib/mmc-chat.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/css/lib/nestable/nestable.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/css/lib/nixon.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/css/lib/owl.carousel.min.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/css/lib/owl.theme.default.min.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/css/lib/rangSlider/ion.rangeSlider.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/css/lib/rangSlider/ion.rangeSlider.skinFlat.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/css/lib/rangSlider/ion.rangeSlider.skinHTML5.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/css/lib/rangSlider/ion.rangeSlider.skinModern.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/css/lib/rangSlider/ion.rangeSlider.skinNice.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/css/lib/rangSlider/ion.rangeSlider.skinSimple.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/css/lib/rangSlider/normalize.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/css/lib/scrollable/scrollable.min.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/css/lib/sidebar.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/css/lib/sweetalert/sweetalert.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/css/lib/themify-icons.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/css/lib/toastr/toastr.min.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/css/lib/vector-map/jqvmap.min.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/css/style.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fontAwesome/css/fa-brands.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fontAwesome/css/fa-brands.min.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fontAwesome/css/fa-regular.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fontAwesome/css/fa-regular.min.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fontAwesome/css/fa-solid.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fontAwesome/css/fa-solid.min.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fontAwesome/css/fontawesome-all.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fontAwesome/css/fontawesome-all.min.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fontAwesome/css/fontawesome.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fontAwesome/css/fontawesome.min.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fontAwesome/scss/fa-brands.scss">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fontAwesome/scss/fa-regular.scss">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fontAwesome/scss/fa-solid.scss">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fontAwesome/scss/fontawesome.scss">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fontAwesome/scss/_animated.scss">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fontAwesome/scss/_bordered-pulled.scss">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fontAwesome/scss/_core.scss">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fontAwesome/scss/_fixed-width.scss">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fontAwesome/scss/_icons.scss">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fontAwesome/scss/_larger.scss">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fontAwesome/scss/_list.scss">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fontAwesome/scss/_mixins.scss">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fontAwesome/scss/_rotated-flipped.scss">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fontAwesome/scss/_screen-reader.scss">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fontAwesome/scss/_stacked.scss">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fontAwesome/scss/_variables.scss">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fontAwesome/webfonts/fa-brands-400.eot">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fontAwesome/webfonts/fa-brands-400.svg">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fontAwesome/webfonts/fa-brands-400.ttf">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fontAwesome/webfonts/fa-brands-400.woff">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fontAwesome/webfonts/fa-brands-400.woff2">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fontAwesome/webfonts/fa-regular-400.eot">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fontAwesome/webfonts/fa-regular-400.svg">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fontAwesome/webfonts/fa-regular-400.ttf">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fontAwesome/webfonts/fa-regular-400.woff">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fontAwesome/webfonts/fa-regular-400.woff2">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fontAwesome/webfonts/fa-solid-900.eot">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fontAwesome/webfonts/fa-solid-900.svg">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fontAwesome/webfonts/fa-solid-900.ttf">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fontAwesome/webfonts/fa-solid-900.woff">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fontAwesome/webfonts/fa-solid-900.woff2">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.eot">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.svg">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.ttf">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.woff">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.woff2">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont_files/viewsource.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fonts/FontAwesome.otf">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fonts/MontserratLight.eot">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fonts/MontserratLight.svg">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fonts/MontserratLight.ttf">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fonts/MontserratLight.woff">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fonts/MontserratLight.woff2">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fonts/themify.eot">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fonts/themify.svg">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fonts/themify.ttf">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fonts/themify.woff">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fonts/weathericons-regular-webfont.eot">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fonts/weathericons-regular-webfont.svg">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fonts/weathericons-regular-webfont.ttf">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fonts/weathericons-regular-webfont.woff">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/fonts/weathericons-regular-webfont.woff2">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/images/1.png">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/images/avatar.png">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/images/avatar/1.jpg">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/images/avatar/2.jpg">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/images/avatar/3.jpg">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/images/avatar/usa-flag.png">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/images/chat-person-add.png">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/images/close.png">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/images/fjords.jpg">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/images/hand.jpg">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/images/lights.jpg">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/images/maximize.png">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/images/minimize.png">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/images/nature.jpg">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/images/newyork.jpg">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/images/paris.jpg">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/images/paypal.png">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/images/picture.png">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/images/preview1.png">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/images/rangeSliderimg/sprite-skin-flat.png">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/images/rangeSliderimg/sprite-skin-modern.png">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/images/rangeSliderimg/sprite-skin-nice.png">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/images/rangeSliderimg/sprite-skin-simple.png">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/images/sanfran.jpg">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/images/smile.png">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/images/user-1.png">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/images/user-profile.jpg">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/images/user.jpg">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/images/video-cam.png">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/barRating/barRating.init.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/barRating/jquery.barrating.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/bootstrap.min.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/calendar-2/moment.latest.min.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/calendar-2/pignose.calendar.min.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/calendar-2/pignose.init.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/calendar-2/prism.min.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/calendar-2/semantic.ui.min.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/calendar/fullcalendar-init.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/calendar/fullcalendar.min.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/chart-js/Chart.bundle.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/chart-js/chartjs-init.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/chat-widget/chat-widget-init.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/data-table/buttons.colVis.min.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/data-table/buttons.flash.min.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/data-table/buttons.html5.min.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/data-table/buttons.print.min.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/data-table/datatables-init.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/data-table/dataTables.buttons.min.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/data-table/datatables.min.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/data-table/jquery-1.12.4.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/data-table/jquery.dataTables.min.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/data-table/jszip.min.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/data-table/pdfmake.min.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/data-table/vfs_fonts.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/datamap/d3.min.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/datamap/datamap-init.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/datamap/datamaps.world.min.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/datamap/topojson.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/flot-chart/curvedLines.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/flot-chart/excanvas.min.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/flot-chart/flot-chart-init.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/flot-chart/flot-tooltip/jquery.flot.tooltip.min.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/flot-chart/jquery.flot.categories.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/flot-chart/jquery.flot.crosshair.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/flot-chart/jquery.flot.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/flot-chart/jquery.flot.pie.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/flot-chart/jquery.flot.resize.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/flot-chart/jquery.flot.stack.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/flot-chart/jquery.flot.threshold.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/flot-chart/jquery.flot.time.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/flowtype.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/gmap/gmap.init.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/gmap/gmapApi.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/gmap/gmaps.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/invoice-edit.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/jquery-ui/jquery-ui.min.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/jquery-ui/jquery.ui.touch-punch.min.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/jquery.min.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/jquery.nanoscroller.min.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/jsgrid/db.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/jsgrid/fields/jsgrid.field.checkbox.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/jsgrid/fields/jsgrid.field.control.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/jsgrid/fields/jsgrid.field.number.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/jsgrid/fields/jsgrid.field.select.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/jsgrid/fields/jsgrid.field.text.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/jsgrid/fields/jsgrid.field.textarea.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/jsgrid/jsgrid-init.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/jsgrid/jsgrid.core.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/jsgrid/jsgrid.field.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/jsgrid/jsgrid.load-indicator.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/jsgrid/jsgrid.load-strategies.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/jsgrid/jsgrid.sort-strategies.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/jsgrid/jsgrid.validation.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/knob/jquery.knob.min.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/knob/knob.init.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/lobi-panel/lobipanel.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/mmc-chat.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/mmc-common.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/moment/moment.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/morris-chart/morris-init.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/morris-chart/morris.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/nestable/jquery.nestable.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/nestable/nestable.init.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/owl-carousel/owl.carousel-init.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/owl-carousel/owl.carousel.min.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/peitychart/jquery.peity.min.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/peitychart/peitychart.init.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/rangeSlider/ion.rangeSlider.min.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/rangeSlider/moment-with-locales.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/rangeSlider/moment.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/rangeSlider/rangeslider.init.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/rating1/jRate.init.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/rating1/jRate.min.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/scrollable/holder.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/scrollable/jquery-asScrollable.min.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/scrollable/jquery-asScrollbar.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/scrollable/scrollable.init.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/sidebar.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/sparklinechart/jquery.sparkline.min.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/sparklinechart/sparkline.init.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/sweetalert/sweetalert.init.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/sweetalert/sweetalert.min.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/toastr/toastr.init.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/toastr/toastr.min.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/vector-map/country/jquery.vmap.algeria.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/vector-map/country/jquery.vmap.argentina.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/vector-map/country/jquery.vmap.brazil.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/vector-map/country/jquery.vmap.europe.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/vector-map/country/jquery.vmap.france.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/vector-map/country/jquery.vmap.germany.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/vector-map/country/jquery.vmap.greece.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/vector-map/country/jquery.vmap.iran.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/vector-map/country/jquery.vmap.iraq.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/vector-map/country/jquery.vmap.russia.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/vector-map/country/jquery.vmap.tunisia.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/vector-map/country/jquery.vmap.turkey.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/vector-map/country/jquery.vmap.usa.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/vector-map/country/jquery.vmap.world.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/vector-map/jquery.vmap.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/vector-map/jquery.vmap.min.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/vector-map/jquery.vmap.sampledata.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/lib/vector-map/vector.init.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/js/scripts.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/lib/lobipanel/css/lobipanel.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/lib/lobipanel/css/lobipanel.min.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/lib/lobipanel/js/lobipanel.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="assets/lib/lobipanel/js/lobipanel.min.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="Backstage.Master">
+      <publishTime>09/08/2019 15:33:40</publishTime>
+    </File>
+    <File Include="bin/OnlineShopping.dll">
+      <publishTime>09/08/2019 16:15:43</publishTime>
+    </File>
+    <File Include="bin/OnlineShopping.pdb">
+      <publishTime>09/08/2019 16:15:43</publishTime>
+    </File>
+    <File Include="GoodAdd.aspx">
+      <publishTime>09/07/2019 21:39:31</publishTime>
+    </File>
+    <File Include="GoodCar.aspx">
+      <publishTime>09/08/2019 15:03:59</publishTime>
+    </File>
+    <File Include="GoodCarAdd.ashx">
+      <publishTime>09/08/2019 15:03:59</publishTime>
+    </File>
+    <File Include="GoodCarEdit.ashx">
+      <publishTime>09/08/2019 15:03:59</publishTime>
+    </File>
+    <File Include="GoodDelete.aspx">
+      <publishTime>09/07/2019 16:13:07</publishTime>
+    </File>
+    <File Include="GoodEdit.aspx">
+      <publishTime>09/07/2019 23:20:53</publishTime>
+    </File>
+    <File Include="GoodManager.aspx">
+      <publishTime>09/07/2019 23:51:07</publishTime>
+    </File>
+    <File Include="GoodsInfo.aspx">
+      <publishTime>09/08/2019 15:03:59</publishTime>
+    </File>
+    <File Include="Images/1001.jpg">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="Images/1002.jpg">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="Images/1003.jpg">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="Images/1004.jpg">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="Images/glyphicons-halflings-white.png">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="Images/glyphicons-halflings.png">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="Index.aspx">
+      <publishTime>09/08/2019 15:16:00</publishTime>
+    </File>
+    <File Include="logo/logo.png">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="logo/logoSmall.png">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="logo/nixon logo.ai">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="logo/nixon-logo.png">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="Register.aspx">
+      <publishTime>09/08/2019 15:03:59</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="SeeImg.aspx">
+      <publishTime>09/07/2019 22:57:05</publishTime>
+    </File>
+    <File Include="Shared/bootstrap-responsive.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="Shared/bootstrap-responsive.min.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="Shared/bootstrap.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="Shared/bootstrap.min.css">
+      <publishTime>09/07/2019 11:26:17</publishTime>
+    </File>
+    <File Include="UserAdd.aspx">
+      <publishTime>09/08/2019 15:19:35</publishTime>
+    </File>
+    <File Include="UserDelete.aspx">
+      <publishTime>09/07/2019 15:16:53</publishTime>
+    </File>
+    <File Include="UserEdit.aspx">
+      <publishTime>09/07/2019 15:18:40</publishTime>
+    </File>
+    <File Include="UserInfo.aspx">
+      <publishTime>09/08/2019 15:03:59</publishTime>
+    </File>
+    <File Include="UserLogin.aspx">
+      <publishTime>09/07/2019 18:48:35</publishTime>
+    </File>
+    <File Include="UserManager.aspx">
+      <publishTime>09/07/2019 15:37:01</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>09/08/2019 16:15:44</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

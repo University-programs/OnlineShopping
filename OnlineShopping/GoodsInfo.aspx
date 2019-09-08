@@ -63,7 +63,7 @@
 					</div>
 				</div>
 				<div class="hero-unit">
-                    <img src='Images/<% Response.Write(dt.Rows[0][6].ToString()); %>' />
+                    <img src='Images/<% Response.Write(dt.Rows[0][6].ToString()); %>' style="width:200px;height:200px" />
                     <h3><% Response.Write(dt.Rows[0][2].ToString()); %></h3>
 				<p>
 					<% Response.Write(dt.Rows[0][7].ToString()); %>

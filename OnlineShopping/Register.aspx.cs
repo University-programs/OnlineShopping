@@ -28,7 +28,7 @@ namespace OnlineShopping
                 Response.Write("<script>alert('该账户已被注册!')</script>");
                 return;
             }
-            bool result = DBHelper.Update("insert into Users values('" + txtUname.Text.Trim() + "','" + txtNname.Text.Trim() + "','" + txtNname.Text.Trim() + "','false')");
+            bool result = DBHelper.Update("insert into Users values('" + txtUname.Text.Trim() + "','" + txtNname.Text.Trim() + "','" + txtPwd.Text.Trim() + "','false')");
             if (result)
             {
                 Response.Write("<script>alert('注册成功!')</script>");
