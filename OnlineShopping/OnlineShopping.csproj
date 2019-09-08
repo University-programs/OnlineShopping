@@ -319,6 +319,7 @@
     <Content Include="Images\glyphicons-halflings.png" />
     <Content Include="logo\nixon logo.ai" />
     <Content Include="GoodCarAdd.ashx" />
+    <Content Include="GoodCarEdit.ashx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -370,6 +371,9 @@
     </Compile>
     <Compile Include="GoodCarAdd.ashx.cs">
       <DependentUpon>GoodCarAdd.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="GoodCarEdit.ashx.cs">
+      <DependentUpon>GoodCarEdit.ashx</DependentUpon>
     </Compile>
     <Compile Include="GoodDelete.aspx.cs">
       <DependentUpon>GoodDelete.aspx</DependentUpon>

@@ -19,7 +19,7 @@ namespace OnlineShopping
             {
                 Response.Redirect("UserLogin.aspx");
             }
-            dt = DBHelper.Select("select * from ShopCar where UserId='" + Session["uid"] + "'").Tables[0];
+            dt = DBHelper.Select("select * from ShopCar where UserId='" + Session["uid"] + "' order by GoodId").Tables[0];
             string gids = string.Empty;
             for (int i=0;i<dt.Rows.Count;i++)
             {
@@ -29,7 +29,12 @@ namespace OnlineShopping
                     gids += ",";
                 }
             }
-            gdt = DBHelper.Select("select * from Goods where GoodId in(" + gids + ")").Tables[0];
+            if (string.IsNullOrEmpty(gids))
+            {
+                Response.Write("<script>alert('您的购物车为空！')</script>");
+                Response.Redirect("Index.aspx");
+            }
+            gdt = DBHelper.Select("select * from Goods where GoodId in(" + gids + ") order by GoodId").Tables[0];
         }
     }
 }
