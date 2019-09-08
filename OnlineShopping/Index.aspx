@@ -60,7 +60,7 @@
                         {
                             Response.Write("<ul class='thumbnails'>");
                         }
-                        Response.Write(@"<li class='span4'><div class='thumbnail'><img alt='300x200' src='Images/" + dt.Rows[goodid][6].ToString() + @"' />
+                        Response.Write(@"<li class='span4'><div class='thumbnail'><img alt='300x200' style='width:200px;height:200px;' src='Images/" + dt.Rows[goodid][6].ToString() + @"' />
 						<div class='caption'><h3>" + dt.Rows[goodid][2].ToString() + @"</h3><p>" + dt.Rows[goodid][7].ToString() + @"</p><p>
 								<a class='btn btn-primary' href='GoodsInfo.aspx?gid="+dt.Rows[goodid][1].ToString()+@"'>浏览</a> <a class='btn' href='GoodsInfo.aspx?gid="+dt.Rows[goodid][1].ToString()+@"'>加入购物车</a>
                                 <asp:Label CssClass='pull-right'>价格：" + dt.Rows[goodid][3].ToString() + @"￥</asp:Label>

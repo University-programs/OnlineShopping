@@ -46,7 +46,12 @@
                             <li><a href="GoodAdd.aspx"> 添加商品</a></li>
                         </ul>
                     </li>
-					<li><a href="UserManager.aspx"><i class="ti-user"></i> 用户管理</a></li>				
+					<li><a class="sidebar-sub-toggle"><i class="ti-layout"></i> 用户管理 <span class="sidebar-collapse-icon ti-angle-down"></span></a>
+                        <ul>
+                            <li><a href="UserManager.aspx"> 管理用户</a></li>
+                            <li><a href="UserAdd.aspx"> 添加用户</a></li>
+                        </ul>
+                    </li>			
                     <li><a href="UserLogin.aspx"><i class="ti-close"></i> 退出系统</a></li>
 
                 </ul>

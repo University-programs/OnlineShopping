@@ -340,6 +340,7 @@
     <Content Include="Shared\bootstrap-responsive.min.css" />
     <Content Include="Shared\bootstrap.css" />
     <Content Include="Shared\bootstrap.min.css" />
+    <Content Include="UserAdd.aspx" />
     <Content Include="UserDelete.aspx" />
     <Content Include="UserEdit.aspx" />
     <Content Include="UserInfo.aspx" />
@@ -425,6 +426,13 @@
     </Compile>
     <Compile Include="SeeImg.aspx.designer.cs">
       <DependentUpon>SeeImg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserAdd.aspx.cs">
+      <DependentUpon>UserAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserAdd.aspx.designer.cs">
+      <DependentUpon>UserAdd.aspx</DependentUpon>
     </Compile>
     <Compile Include="UserDelete.aspx.cs">
       <DependentUpon>UserDelete.aspx</DependentUpon>
