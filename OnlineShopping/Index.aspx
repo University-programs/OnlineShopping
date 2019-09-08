@@ -30,7 +30,7 @@
 								<li class="divider-vertical">
 								</li>
 								<li class="dropdown">
-									<a href="UserEdit.aspx">我的信息</a>
+									<a href="UserInfo.aspx">我的信息</a>
 								</li>
 							</ul>
 						</div>

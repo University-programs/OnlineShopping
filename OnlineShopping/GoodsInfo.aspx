@@ -69,7 +69,7 @@
 					<% Response.Write(dt.Rows[0][7].ToString()); %>
 				</p>
 				<p>
-					<label>价格：<% Response.Write(dt.Rows[0][3].ToString()); %>￥</label><a class="btn btn-primary btn-large" href="GoodCar.aspx">添加购物车</a>
+					<label>价格：<% Response.Write(dt.Rows[0][3].ToString()); %>￥</label><a class="btn btn-primary btn-large" href='GoodCarAdd.ashx?gid=<% Response.Write(dt.Rows[0][1].ToString()); %>'>添加购物车</a>
 				</p>
 			</div>
 			</div>

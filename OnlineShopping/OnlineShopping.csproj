@@ -306,6 +306,7 @@
     <Content Include="assets\fonts\weathericons-regular-webfont.woff" />
     <Content Include="assets\fonts\weathericons-regular-webfont.woff2" />
     <Content Include="GoodAdd.aspx" />
+    <Content Include="GoodCar.aspx" />
     <Content Include="GoodDelete.aspx" />
     <Content Include="GoodEdit.aspx" />
     <Content Include="GoodsInfo.aspx" />
@@ -317,6 +318,7 @@
     <Content Include="Images\glyphicons-halflings-white.png" />
     <Content Include="Images\glyphicons-halflings.png" />
     <Content Include="logo\nixon logo.ai" />
+    <Content Include="GoodCarAdd.ashx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -338,6 +340,8 @@
     <Content Include="Shared\bootstrap.min.css" />
     <Content Include="UserDelete.aspx" />
     <Content Include="UserEdit.aspx" />
+    <Content Include="UserInfo.aspx" />
+    <Content Include="UserLogin.aspx" />
     <Content Include="UserManager.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -356,6 +360,16 @@
     </Compile>
     <Compile Include="GoodAdd.aspx.designer.cs">
       <DependentUpon>GoodAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GoodCar.aspx.cs">
+      <DependentUpon>GoodCar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GoodCar.aspx.designer.cs">
+      <DependentUpon>GoodCar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GoodCarAdd.ashx.cs">
+      <DependentUpon>GoodCarAdd.ashx</DependentUpon>
     </Compile>
     <Compile Include="GoodDelete.aspx.cs">
       <DependentUpon>GoodDelete.aspx</DependentUpon>
@@ -413,6 +427,20 @@
     </Compile>
     <Compile Include="UserEdit.aspx.designer.cs">
       <DependentUpon>UserEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserInfo.aspx.cs">
+      <DependentUpon>UserInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserInfo.aspx.designer.cs">
+      <DependentUpon>UserInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserLogin.aspx.cs">
+      <DependentUpon>UserLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserLogin.aspx.designer.cs">
+      <DependentUpon>UserLogin.aspx</DependentUpon>
     </Compile>
     <Compile Include="UserManager.aspx.cs">
       <DependentUpon>UserManager.aspx</DependentUpon>
